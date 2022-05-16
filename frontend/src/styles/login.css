@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+.main-body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color:#C2E0AE;
+    font-family: 'Montserrat', sans-serif;
+}
+.centre-form{
+    width: 85%;
+    height: 84%;
+     margin: auto auto;
+    /* background-color: blue; */
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: white;
+    display: flex;
+}
+.form{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+.image{
+    width: 40%;
+    height: 100%;
+    background-color: #d1eebc;
+    box-sizing: border-box;
+}
+
+.title{
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.greet{
+  margin-left: 8%;
+  margin-top: 7%;
+  font-size: 20;
+  font-weight: 100;
+  color: rgb(80, 80, 80);
+}
+.welcome{
+  margin-left: 8%;
+  margin-top: 0;
+  font-weight: 600;
+  color: #4B6F13;
+  font-size: x-large;
+}
+.msg{
+  margin-left: 8%;
+  margin-top: 0.5%;
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+  font-size: medium;
+}
+
+/* .form-content{
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: larger;
+    font-weight: 500;
+     
+} */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 70%;
+    /* padding: 12px; */
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 4px;
+    resize: vertical;
+    box-shadow: 0 0 7px #ccc;
+    padding: 2.5% 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  input[type=text], select, textarea:active{
+    outline: none;
+
+  }
+  input[type=password], select, textarea:active{
+    outline: none;
+    
+  }
+  input[type=password], select, textarea {
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 12px; */
+    border: 1px solid #ccc;
+    border-top: none;
+    box-shadow: 0 0 7px #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    padding: 2.5% 12px;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: small;
+    font-weight: 100;
+    color: rgb(59, 59, 59);
+  }
+  
+  input[type=submit] {
+    width: 70%;
+    /* padding: 12px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+    font-family: 'Montserrat', sans-serif;
+    /* width: 60%; */
+    background-color: #4B6F13;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 2.5% 6%;
+    /* border: none; */
+    /* border-radius: 4px; */
+    cursor: pointer;
+    display: inline;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5d8818;
+  }
+  
+  .container {
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 4%;
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+   
+  
+  .col-75 {
+    float: inline-end;
+    width: 75%;
+    margin-top: 6px;
+  }
+   
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .submit{
+    padding-top: 3vh;
+    height: 4%;
+    font-weight: bolder;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ 
