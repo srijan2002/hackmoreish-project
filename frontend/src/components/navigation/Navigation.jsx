@@ -4,15 +4,17 @@ import {FiHome} from 'react-icons/fi'
 import {FiEdit} from 'react-icons/fi'
 import {BsPeople} from 'react-icons/bs'
 import {BsPerson} from 'react-icons/bs'
+import IMG from '../../assets/srijan.jpg'
 
 
 const Navigation = () => {
     return (  
         <div className="navigation">
            <div className="navigationWrapper">
-           <div className="title">AGRIFARM</div>
+               <div className="title"> <div className="black">AGRI</div> <div className="green">FARM</div></div>
                <ul className="navbarlist">
                    <li className="navbarListItem active">
+                       <div className="line"/>
                        <FiHome className='navbarIcon'/>
                        <span className="navbarListItemText">Home</span>
                    </li>
@@ -34,6 +36,13 @@ const Navigation = () => {
                        <span className="navbarListItemText">Testimonials</span>
                    </li>
                </ul>
+               <div className="profile">
+               <img src={IMG} alt="" className="profileImg"/>
+               <div className="profile__text">
+               <div className="profileName">Srijan Majumdar</div>
+               <div className="logout">Logout</div>
+               </div>
+               </div>
            </div>
         </div>
     );
