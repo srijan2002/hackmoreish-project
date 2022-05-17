@@ -1,25 +1,31 @@
 import './App.css';
 import Login from './pages/login';
-import Register from './pages/register';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Dashboard from "./pages/dashboard/Dashboard";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate
+} from "react-router-dom";
+
 
 function App() {
+  const user = true;
   return (
-    <Router>
-      <div className="body">
+      <Router>
       <Routes>
-        <Route path ='/' element ={
-        <Login/>
-        } 
-        />
-         <Route path ='/register' element ={ 
-         <Register/> 
-         } />
-         
-       </Routes>
-      </div>
+        <Route path="/" exact element={user ? <Dashboard/> : <Login/> }/>
+        <Route path="/login" element={user ? <Navigate to="/"/> : <Login/> }/>
+        {/* <Route path="/register" element={user ? <Navigate to="/"/> : <Register/> } /> */}
+      </Routes>
     </Router>
   );
 }
 
 export default App;
+
+
+
+
+

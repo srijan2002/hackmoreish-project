@@ -1,0 +1,27 @@
+.navigationWrapper{
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    
+  }
+.navbarlist{
+    padding:0;
+    margin: 0;
+    list-style: none;
+  }
+.navbarListItem{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.navbarIcon{
+    margin-right: 15px;
+}
+.navbarListItemText{
+    font-weight: 700;
+}
+.active{
+    color: #5d8818;
+}
