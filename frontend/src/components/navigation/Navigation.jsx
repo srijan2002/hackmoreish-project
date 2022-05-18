@@ -5,7 +5,7 @@ import {FiEdit} from 'react-icons/fi';
 import {BsPeople} from 'react-icons/bs';
 import {BsPerson} from 'react-icons/bs';
 import { useState } from "react";
-
+import IMG from '../../assets/srijan.png'
 
 const Navigation = () => {
     
@@ -21,7 +21,7 @@ const Navigation = () => {
     return (  
         <div className="navigation">
            <div className="navigationWrapper">
-           <div className="title">AGRIFARM</div>
+               <div className="title"> <div className="black">AGRI</div> <div className="green">FARM</div></div>
                <ul className="navbarlist">
                    <li className={`navbarListItem ${tab[0]}`} onClick={()=> handleTab(0)}>
                        <FiHome className='navbarIcon'/>
@@ -45,6 +45,13 @@ const Navigation = () => {
                        <span className="navbarListItemText">Testimonials</span>
                    </li>
                </ul>
+               <div className="profile">
+               <img src={IMG} alt="" className="profileImg"/>
+               <div className="profile__text">
+               <div className="profileName">Srijan Majumdar</div>
+               <div className="logout">Logout</div>
+               </div>
+               </div>
            </div>
         </div>
     );

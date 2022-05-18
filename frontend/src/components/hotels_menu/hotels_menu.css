@@ -3,4 +3,100 @@
     height: calc(100vh - 20px);
     background-color: rgb(237 237 237);
     border-radius: 0.3rem;
+    position: sticky;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.menuWrapper{
+    padding: 20px;
+    margin:20px ;
+    
+    
+}
+.header_text{
+    font-weight: 800;
+}
+.searchBar{
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin: 10px;
+    /* border: 2px solid red; */
+    color: rgb(212, 211, 211);
+}
+input::placeholder{
+    color: rgb(162, 161, 161);
+}
+.searchInput{
+    border: none;
+    /* margin-left: 10px; */
+    width: 80%;
+}
+.searchInput:focus{
+   outline: none;
+}
+.search_filter{
+     display: flex;
+     align-items: center;
+     justify-items: center;
+}
+.filter_wrapper{
+    /* border: 2px solid red; */
+    margin: 0px 20px;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.filterIcon{
+    margin-right: 10px;
+}
+.filter_text{
+    font-weight: 800;
+}
+.menuList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+
+.list__item{
+    background-color: white;
+    border-radius: 5px;
+    line-height: 0.5rem;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px
+}
+.list__item h4{
+    color: rgb(162, 161, 161);
+    padding-left: 7px;
+}
+.address{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* border: 2px solid red */
+    height: 10px;
+}
+.period{
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.address h4{
+    color: black;
+}
+.quantity{
+    display: flex;
+    gap: 0.8rem;
 }
