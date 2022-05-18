@@ -11,7 +11,7 @@
 }
 .centre-form{
     width: 90%;
-    height: 87%;
+    height: 90%;
      margin: auto auto;
     /* background-color: blue; */
     border-style: solid;
@@ -40,6 +40,13 @@
     font-size: larger;
     font-weight: bold;
     
+}
+.title-2{
+  margin-left: 8%;
+  margin-top: 8%;
+  font-size: larger;
+  font-weight: bold;
+  
 }
 .greet{
   margin-left: 8%;
@@ -172,7 +179,7 @@
   }
 
   .submit{
-    padding-top: 3vh;
+    /* padding-top: 2vh; */
     height: 4%;
     font-weight: bolder;
   }

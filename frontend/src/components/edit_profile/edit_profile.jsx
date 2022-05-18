@@ -2,10 +2,10 @@ import './edit_profile.css'
 import pic from '../../assets/profile.jpeg'
 const Edit_Profile = () => {
     return ( 
-         <div className="body">
-             <div className="title">Edit Profile</div>
+         <div className>
+             <div className="title-name">Edit Profile</div>
              <div className="header">Update your Profile</div>
-             <div className="title">Update Profile Photo</div>
+             <div className="title-name">Update Profile Photo</div>
              <div className="profile"><img className='profile-pic' src={pic} alt="Avatar"/>
              <div className="change">Change Photo</div>
              </div>

@@ -5,7 +5,7 @@ import {FiEdit} from 'react-icons/fi';
 import {BsPeople} from 'react-icons/bs';
 import {BsPerson} from 'react-icons/bs';
 import { useState } from "react";
-import IMG from '../../assets/srijan.png'
+import IMG from '../../assets/srijan.jpg'
 
 const Navigation = () => {
     
