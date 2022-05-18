@@ -1,8 +1,8 @@
-import '../styles/login.css';
-import pic from '../assets/pic.png';
+import './login.css'
+import pic from '../../assets/pic.png';
 import { Link } from 'react-router-dom';
 
-import LoginForm from '../components/form-components';
+import LoginForm from '../../components/form/form-components';
 const Login = () => {
     return ( 
     <div className="main-body" >
@@ -18,9 +18,7 @@ const Login = () => {
          </div>
            </div>
       </div>
-      </div>
-
-         
+      </div> 
         </div>
         <div className="image">
          <div className="image-center">

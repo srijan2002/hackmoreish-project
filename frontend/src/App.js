@@ -1,6 +1,7 @@
 import './App.css';
-import Login from './pages/login';
+import Login from './pages/login/login';
 import Dashboard from "./pages/dashboard/Dashboard";
+import Register from './pages/register/register';
 
 import {
   BrowserRouter as Router,
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={user ? <Dashboard/> : <Login/> }/>
         <Route path="/login" element={user ? <Navigate to="/"/> : <Login/> }/>
-        {/* <Route path="/register" element={user ? <Navigate to="/"/> : <Register/> } /> */}
+        <Route path="/register" element={user ? <Navigate to="/"/> : <Register/> } />
       </Routes>
     </Router>
   );

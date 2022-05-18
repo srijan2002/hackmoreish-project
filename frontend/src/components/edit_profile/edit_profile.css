@@ -1,0 +1,40 @@
+.header{
+    margin-left: 8%;
+  margin-top: 1%;
+  font-size: 20;
+  font-weight: 400;
+  color: gray;
+}
+.profile-pic{
+     
+    border-radius: 60%;
+    height: 4em;
+    width: 4em;
+}
+.profile{
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.change{
+    padding: 0.6em;
+    background-color: rgb(211, 211, 211);
+    color: rgb(99, 99, 99);
+    border-radius: 2em;
+}
+
+.update{
+    display: flex; color: white;
+    justify-content: center;
+    width: 40%;
+     margin: 10% auto;
+    padding: 0.5em;
+    background-color: #78a829;
+    border-radius: 0.5em;
+}
+.profile-wrapper{
+    justify-content: center;
+}

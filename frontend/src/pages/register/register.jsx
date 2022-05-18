@@ -1,7 +1,7 @@
-import '../styles/register.css';
-import pic from '../assets/pic.png';
+import './register.css';
+import pic from '../../assets/pic.png';
 
-import LoginForm from '../components/form-components';
+import LoginForm from '../../components/form/form-components';
 const Register = () => {
     return ( 
     <div className="main-body" >
