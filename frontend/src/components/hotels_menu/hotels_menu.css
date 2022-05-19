@@ -69,14 +69,17 @@ input::placeholder{
     flex-direction: column;
     margin-top: 50px;
     overflow-y: scroll;
+
 }
 
 .list__item{
     background-color: white;
     border-radius: 5px;
-    /* line-height: 1em; */
+    line-height: 0.3em;
     padding: 20px;
-    margin-bottom: 20px
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    width: 85%;
 }
 .list__item h4{
     color: rgb(162, 161, 161);
@@ -87,7 +90,8 @@ input::placeholder{
     display: flex;
     align-items: center;
     gap: 0.5em; 
-    /* line-height: normal;   */
+    /* border: 2px solid red; */
+    height: 20px;
 }
 .period{
     border: 4px solid black;
@@ -96,6 +100,7 @@ input::placeholder{
 }
 .address h4{
     color: black;
+    
 }
 /* .address h5{
    
@@ -104,4 +109,5 @@ input::placeholder{
 .quantity{
     display: flex;
     gap: 0.8rem;
+    height: 20px;
 }
