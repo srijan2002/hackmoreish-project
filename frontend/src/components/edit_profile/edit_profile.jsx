@@ -2,12 +2,14 @@ import './edit_profile.css'
 import pic from '../../assets/profile.jpeg'
 const Edit_Profile = () => {
     return ( 
-         <div className>
-             <div className="title-name">Edit Profile</div>
-             <div className="header">Update your Profile</div>
-             <div className="title-name">Update Profile Photo</div>
+         <div className="edit">
+           <div className="editWrapper">
+             <div className="header-top">
+             <div className="title-name">Update your Profile</div>
+             <div className="header">Update Profile Photo</div>
              <div className="profile"><img className='profile-pic' src={pic} alt="Avatar"/>
              <div className="change">Change Photo</div>
+             </div>
              </div>
 
            <div className="profile-wrapper">
@@ -31,6 +33,7 @@ const Edit_Profile = () => {
            </div>
            <div className='update'>
                Update Profile
+           </div>
            </div>
            </div>
          </div>

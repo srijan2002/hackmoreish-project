@@ -5,7 +5,7 @@ const Map = () => {
     <div className="map">
       <div className="mapWrapper">
         <div className="image-center">
-          <img className="pic" src={pic} alt="" />
+          {/* <img className="pic" src={pic} alt="" /> */}
         </div>
         {/* <div className="menuList">
       <div className="list__item">

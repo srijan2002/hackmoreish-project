@@ -34,15 +34,6 @@ const Navigation = () => {
             <span className="navbarListItemText">Home</span>
           </li>
           </Link>
-          <Link to="/about" style={{textDecoration:"none"}}>
-          <li
-            className={`navbarListItem ${tab[1]}`}
-            onClick={() => handleTab(1)}
-          >
-            <BsPerson className="navbarIcon" />
-            <span className="navbarListItemText">About Us</span>
-          </li>
-          </Link>
           <Link to="/dashboard" style={{textDecoration:"none"}}>
           <li
             className={`navbarListItem ${tab[2]}`}

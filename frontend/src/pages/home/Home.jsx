@@ -1,9 +1,16 @@
-
+import Navigation from "../../components/navigation/Navigation";
+import Main from "../../components/main/Main";
+import "./home.css"
 
 
 const Home = () => {
     return ( 
-        <h3>HOME</h3>
+        <>
+        <div className="homeContainer">
+        <Navigation />
+        <Main/>
+        </div>
+        </>
      );
 }
  

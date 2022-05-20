@@ -1,9 +1,16 @@
-
+import Navigation from "../../components/navigation/Navigation";
+import Menu from "../../components/hotels_menu/Hotels_menu";
+import "./edit.css"
 
 
 const Edit = () => {
     return ( 
-        <h2>EDIT</h2>
+        <>
+        <div className="editContainer">
+        <Navigation />
+        <Menu edit="true"/>
+        </div>
+        </>
      );
 }
  

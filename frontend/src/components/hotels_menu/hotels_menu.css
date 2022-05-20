@@ -10,9 +10,7 @@
 }
 .menuWrapper{
     padding: 20px;
-    margin:20px ;
-    
-    
+    margin:20px ;    
 }
 .header_text{
     font-weight: 800;
@@ -79,7 +77,6 @@ input::placeholder{
     padding: 20px;
     padding-bottom: 25px;
     margin-bottom: 20px;
-    width: 85%;
 }
 .list__item h4{
     color: rgb(162, 161, 161);

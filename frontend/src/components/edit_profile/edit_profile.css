@@ -1,15 +1,22 @@
+.edit{
+    /* padding: 0; */
+    /* border: 2px solid red; */
+    padding: 30px;
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
 .title-name{
-    margin-left: 8%;
-    margin-top: 10%;
-    font-size: larger;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 800;
 }
 .header{
-    margin-left: 8%;
-  margin-top: 1%;
   font-size: 20;
-  font-weight: 400;
+  font-weight: 300;
   color: gray;
+  padding-left: 30px;
 }
 .profile-pic{
      
@@ -18,12 +25,10 @@
     width: 4em;
 }
 .profile{
-    width: 40%;
-    margin-left: 8%;
-    margin-top: 1.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 40px;
 }
 .change{
     padding: 0.6em;
@@ -33,14 +38,18 @@
 }
 
 .update{
-    display: flex; color: white;
+    margin: 30px;
+    display: flex; 
+    color: white;
     justify-content: center;
     width: 40%;
-     margin: 10% auto;
     padding: 0.5em;
     background-color: #78a829;
     border-radius: 0.5em;
+    margin-left: 150px;
 }
 .profile-wrapper{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }

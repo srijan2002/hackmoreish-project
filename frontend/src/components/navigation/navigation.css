@@ -5,7 +5,7 @@
     padding:20px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15rem;
+    gap: 17rem;
     
 }
 .title{
@@ -52,6 +52,7 @@
     display: flex;
     align-items: center;
     /* border: 2px solid red; */
+    width: 20%;
 }
 .profileImg{
     width: 40px;
