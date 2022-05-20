@@ -4,19 +4,11 @@
     border-radius: 0.3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .mainWrapper{
     padding: 50px;
     display: flex;
-    align-items: center;
-    justify-items: center;
-    overflow: hidden;
+
 }
-.mySwiper{
-    width: 40%;
-}
-.text{
-    margin: 50px;
-    padding: 50px;
-    border: 2px solid red;
-}
+
