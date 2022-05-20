@@ -3,12 +3,19 @@ import pic from '../../assets/profile.jpeg'
 import '../../pages/login/login.css'
 const Edit_Profile = () => {
     return ( 
-         <div className>
+         <div>
+            
+             {/* <div className="header">Update your Profile</div>
+             <h5 className='photo'>Update Profile Photo</h5> */}
+         <div className="edit">
+           <div className="editWrapper">
+             <div className="header-top">
              <div className="title-name">Edit Profile</div>
              <div className="header">Update your Profile</div>
-             <h5 className='photo'>Update Profile Photo</h5>
+             <div className="title-name">Update Profile Photo</div>
              <div className="profile"><img className='profile-pic' src={pic} alt="Avatar"/>
              <div className="change">Change Photo</div>
+             </div>
              </div>
 
            <div className="profile-wrapper">
@@ -30,9 +37,12 @@ const Edit_Profile = () => {
               <input type="text" id="label" name="firstname" placeholder="New Contact "className="input"/> 
             
            </div>
-           <div className='update'>
-               Update Profile
+
            </div>
+           </div>
+         </div>
+         <div className='update'>
+               Update Profile
            </div>
          </div>
      );

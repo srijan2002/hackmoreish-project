@@ -1,18 +1,15 @@
-.dashContainer{
+.homeContainer{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 .navigation{
-    flex:1.5;
+    flex:20%;
     /* border: 2px solid red; */
 }
-.menu{
-    flex:4.3;
+.main{
+    flex:80%;
     /* border: 2px solid green; */
-}
-.map{
-    flex:5.2;
-    /* border: 2px solid black; */
 }

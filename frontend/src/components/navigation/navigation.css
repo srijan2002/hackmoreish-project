@@ -5,18 +5,19 @@
     padding:20px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15rem;
+    gap: 17rem;
     
 }
 .title{
     /* border: 2px solid red; */
     display: flex;
     margin: 40px;
-    font-size: 8.5rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 .title .green{
     color: #5d8818;
+    
 }
 .navbarlist{
     padding:0;
@@ -26,6 +27,7 @@
 .navbarListItem{
     display: flex;
     align-items: center;
+    color: black;
     /* margin: 20px; */
     margin-bottom: 30px;
     /* border: 2px solid red; */
@@ -54,6 +56,8 @@ a{
 .profile{
     display: flex;
     align-items: center;
+    /* border: 2px solid red; */
+    width: 20%;
 }
 .profileImg{
     width: 40px;
@@ -64,6 +68,8 @@ a{
 }
 .profileName{
     font-weight: 500;
+    /* border: 2px solid red; */
+    width: 120px;
 }
 .logout{
     color: rgb(160, 160, 160);

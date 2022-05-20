@@ -1,18 +1,18 @@
-.dashContainer{
+.editContainer{
     display: flex;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 .navigation{
-    flex:1.5;
+    flex:10%;
     /* border: 2px solid red; */
 }
 .menu{
-    flex:4.3;
+    flex:40%;
     /* border: 2px solid green; */
 }
 .map{
-    flex:5.2;
+    flex:50%;
     /* border: 2px solid black; */
 }

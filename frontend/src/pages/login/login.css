@@ -212,13 +212,12 @@
     }
   }
  
-  .image-center{
+  .image-middle{
     margin:  auto;
     display: flex;
   }
 
-  .pic{
-     
+  .picture{ 
     width: 100%;
     margin: auto auto;
   }

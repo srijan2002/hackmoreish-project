@@ -14,15 +14,15 @@ const Login = () => {
            <div className="row">
             <div className="col-75">
             <div className="signup">
-             Don't have an account? Sign up <Link className='here' to='register'>here</Link>
+             Don't have an account? Sign up <Link className='here' to='/register'>here</Link>
          </div>
            </div>
       </div>
       </div> 
         </div>
         <div className="image">
-         <div className="image-center">
-         <img className='pic' src={pic} alt="" />
+         <div className="image-middle">
+         <img className='picture' src={pic} alt="" />
          </div>
         </div>
        </div>  

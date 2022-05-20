@@ -10,8 +10,8 @@ const Register = () => {
             <LoginForm title={"AGRIFARM"} greet={""} welcome={""} msg = {"Sign up to your Agrifarm account"} type={"Register"}/>
         </div>
         <div className="image">
-         <div className="image-center">
-         <img className='pic' src={pic} alt="" />
+         <div className="image-middle">
+         <img className='picture' src={pic} alt="" />
          </div>
         </div>
        </div>  
