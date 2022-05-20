@@ -14,7 +14,7 @@ const Login = () => {
            <div className="row">
             <div className="col-75">
             <div className="signup">
-             Don't have an account? Sign up <Link to='register'>here</Link>
+             Don't have an account? Sign up <Link className='here' to='register'>here</Link>
          </div>
            </div>
       </div>

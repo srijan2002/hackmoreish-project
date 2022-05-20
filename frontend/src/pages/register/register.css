@@ -75,8 +75,8 @@
     box-sizing: border-box;
   }
   
-  input[type=text], select, textarea {
-    width: 70%;
+  .input {
+    width: 80%;
     /* padding: 12px; */
     border: 1px solid #ccc;
     border-top: none;
@@ -86,16 +86,16 @@
     padding: 2.5% 12px;
     font-family: 'Montserrat', sans-serif;
   }
-  input[type=text], select, textarea:active{
+  .input:active{
     outline: none;
 
   }
-  input[type=password], select, textarea:active{
+  .input:active{
     outline: none;
     
   }
-  input[type=password], select, textarea {
-    width: 70%;
+  .input {
+    width: 80%;
     font-family: 'Montserrat', sans-serif;
     /* padding: 12px; */
     border: 1px solid #ccc;

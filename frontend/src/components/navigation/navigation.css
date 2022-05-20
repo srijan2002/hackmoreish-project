@@ -30,13 +30,13 @@
     margin-bottom: 30px;
     /* border: 2px solid red; */
 }
-.line{
+/* .line{
     width: 5px;
     height: 25px;
     background-color: #5d8818;
     margin-right: 5px;
     border-radius: 0px 10px 10px 0px;
-}
+} */
 .navbarIcon{
     margin-right: 15px;
 }
@@ -44,7 +44,12 @@
     font-weight: 700;
 }
 .active{
-    color: #5d8818;
+    /* color: #5d8818; */
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 .profile{
     display: flex;

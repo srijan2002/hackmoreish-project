@@ -10,7 +10,6 @@ const Menu = () => {
     <div className="menu">
   <div className="menuWrapper">
   <MenuList/>
-   
   </div>
 </div>
  

@@ -2,7 +2,7 @@
 .menu{
     height: calc(100vh - 20px);
     background-color: rgb(237 237 237);
-    border-radius: 0.3rem;
+    border-radius: 0.6rem;
     position: sticky;
     overflow: hidden;
     overflow-y: scroll;

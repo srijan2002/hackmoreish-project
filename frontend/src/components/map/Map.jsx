@@ -4,7 +4,6 @@ const Map = () => {
     return (  
         <div className="map">
            <div className="navigationWrapper">
-            
          <div className="image-center">
          <img className='pic' src={pic} alt="" />
          </div>

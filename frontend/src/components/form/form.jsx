@@ -8,41 +8,41 @@ const Form = ({type}) => {
     setIsChecked(!isChecked);
   };
 
-    return ( <div class="container">
+    return ( <div className="container">
     <form action="/action_page.php">
-      <div class="row">
-        <div class="col-25">
+      <div className="row">
+        <div className="col-25">
           <label for="fname">Email</label>
         </div>
-        <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your Email ID Here"/>
+        <div className="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your Email ID Here" className="input"/>
         </div>
       </div>
-      <div class="row">
-        <div class="col-25">
+      <div className="row">
+        <div className="col-25">
           <label for="lname">Password</label>
         </div>
-        <div class="col-75">
-          <input type="password" id="lname" name="lastname" placeholder="Your Password"/>
+        <div className="col-75">
+          <input type="password" id="lname" name="lastname" placeholder="Your Password" className="input"/>
         </div>
       </div>
       {
-        (type==="Register") &&  <div class="row">
-        <div class="col-25">
+        (type==="Register") &&  <div className="row">
+        <div className="col-25">
           <label for="lname">Address</label>
         </div>
-        <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your Address"/>
+        <div className="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your Address" className="input"/>
         </div>
       </div>
       }
         {
-        (type==="Register") &&  <div class="row">
-        <div class="col-25">
+        (type==="Register") &&  <div className="row">
+        <div className="col-25">
           <label for="lname">Contact No.</label>
         </div>
-        <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your Contact No."/>
+        <div className="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your Contact No." className="input"/>
         </div>
       </div>
       }
@@ -56,7 +56,7 @@ const Form = ({type}) => {
            
       <div className="row">
       <div className="col-75">
-      <div class="submit">
+      <div className="submit">
         <input type="submit" value={type}/>
       </div>
       </div>
