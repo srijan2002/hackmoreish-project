@@ -6,7 +6,6 @@ const Menu = ({edit}) => {
     <div className="menu">
       <div className="menuWrapper">
         {edit ? <EditProfile/> : <MenuList />}
-        
       </div>
     </div>
   );

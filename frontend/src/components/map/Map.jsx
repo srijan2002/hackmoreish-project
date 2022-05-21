@@ -5,9 +5,9 @@ const Map = () => {
   return (
     <div className="map">
       <div className="mapWrapper">
-        <div className="image-center">
+        {/* <div className="image-center">
           <img className="pic" src={pic} alt="" />
-        </div>
+        </div> */}
         {/* <div className="menuList">
       <div className="list__item">
           <h3>ID 816495</h3>
