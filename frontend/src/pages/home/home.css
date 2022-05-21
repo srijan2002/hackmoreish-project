@@ -1,15 +1,14 @@
 .homeContainer{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
     width: 100%;
     padding: 0;
     margin: 0;
 }
 .navigation{
-    flex:20%;
+    /* flex:20%; */
     /* border: 2px solid red; */
 }
 .main{
-    flex:80%;
+    /* flex:80%; */
     /* border: 2px solid green; */
 }

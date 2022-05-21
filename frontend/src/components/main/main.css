@@ -5,6 +5,9 @@
     display: flex;
     align-items: center;
 }
+.te{
+    background-color: aquamarine;
+}
 .mainWrapper{
     padding: 50px;
     display: flex;
@@ -19,4 +22,10 @@
     margin: 50px;
     padding: 50px;
     border: 2px solid red;
+}
+.x{
+    
+}
+.myswiper{
+   width: 100%;     
 }

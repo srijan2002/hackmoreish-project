@@ -10,9 +10,53 @@
 }
 .menu{
     flex:40%;
+    overflow: scroll;
     /* border: 2px solid green; */
 }
 .map{
     flex:50%;
     /* border: 2px solid black; */
+}
+
+
+
+
+
+
+.menu-title{
+    /* background-color: white; */
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+.menu-item{
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.menu-name{
+    font-size: large;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.6em;
+    padding-right: 1em;
+}
+.menu-quantity{
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+}
+.menu-desc{
+    font-size: medium;
+    color: rgb(112, 112, 112);
+    font-weight: 300;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
 }

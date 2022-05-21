@@ -4,11 +4,11 @@ import "./edit.css"
 import Map from "../../components/map/Map";
 
 
-const Edit = () => {
+const Edit = ({type}) => {
     return ( 
         <>
         <div className="dashContainer">
-        <Navigation />
+        <Navigation type={type}/>
         <Menu edit="true"/>
         <Map/>
         </div>

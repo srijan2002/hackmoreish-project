@@ -7,7 +7,7 @@ import { BsPeople } from "react-icons/bs";
 // import { useState } from "react";
 import IMG from "../../assets/srijan.jpg";
 
-const Navigation = () => {
+const Navigation = ({type}) => {
   return (
     <div className="navigation">
       <div className="navigationWrapper">
@@ -24,7 +24,7 @@ const Navigation = () => {
             <span className="navbarListItemText">Home</span>
           </li>
           </Link>
-          <Link to='/dashboard' style={{textDecoration:"none"}}>
+          <Link to={type===0?'/dashboard':'/menu'} style={{textDecoration:"none"}}>
           <li
             className= 'navbarListItem'
           >

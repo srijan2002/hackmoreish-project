@@ -20,6 +20,9 @@ const Edit_Profile = () => {
 
            <div className="profile-wrapper">
            <div className="container">
+
+           <h5 for="fname">Name</h5> 
+              <input type="text" id="name" name="firstname" placeholder="New Name "className="input"/>  
             
                <h5 for="fname">Email</h5> 
               <input type="text" id="email" name="firstname" placeholder="New Email ID "className="input"/>  
@@ -34,7 +37,10 @@ const Edit_Profile = () => {
             
             
               <h5 for="fname">Contact</h5> 
-              <input type="text" id="label" name="firstname" placeholder="New Contact "className="input"/> 
+              <input type="text" id="contact" name="firstname" placeholder="New Contact "className="input"/> 
+
+              <h5 for="fname">Verification ID</h5> 
+              <input type="text" id="verification" name="firstname" placeholder="New Verification ID"className="input"/> 
             
            </div>
 

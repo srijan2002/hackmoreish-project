@@ -1,11 +1,11 @@
 import "./main.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import IMG from "../../assets/delivery.png";
-import {Pagination} from "swiper";
-
+import {Pagination,EffectFade,Navigation} from "swiper";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+import styles from "./main.css";
+
 
 const data = [
   {
@@ -28,29 +28,52 @@ const data = [
 
 const Main = () => {
   return (
-    <div className="main">
-      <div className="mainWrapper">
-        <Swiper
-          modules={[Pagination]}
-          spaceBetween={0}
+    // <div className="main">
+    //   <div className="mainWrapper">
+    //     <Swiper
+    //       modules={[Pagination]}
+    //       spaceBetween={0}
+    //       slidesPerView={1}
+    //       pagination={{ clickable: true }}
+    //       className="mySwiper"
+    //     >
+    //       {data.map(({ heading, text }, index) => {
+    //         return (
+    //           <SwiperSlide key = {index} className="text">
+    //             <h1>{heading}</h1>
+    //             <p>{text}</p>
+    //           </SwiperSlide>
+    //         );
+    //       })}
+    //     </Swiper>
+    //     <div className="img">
+    //       <img src={IMG} alt="" />
+    //     </div>
+    //   </div>
+    // </div>
+
+     <div className="x">
+       <Swiper
+          modules={[Navigation,EffectFade]}
+          navigation
+          effect
+          speed={800}
           slidesPerView={1}
-          pagination={{ clickable: true }}
-          className="mySwiper"
-        >
-          {data.map(({ heading, text }, index) => {
-            return (
-              <SwiperSlide key = {index} className="text">
-                <h1>{heading}</h1>
-                <p>{text}</p>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-        <div className="img">
-          <img src={IMG} alt="" />
-        </div>
-      </div>
-    </div>
+          loop
+          className= {styles.myswiper}
+       >
+      <SwiperSlide className="ab">
+        <img src={IMG} alt="" />
+      </SwiperSlide >
+      <SwiperSlide className="ab">
+        <img src={IMG} alt="" />
+      </SwiperSlide >
+      <SwiperSlide className="ab">
+        <img src={IMG} alt="" />
+      </SwiperSlide>
+       </Swiper>
+     </div>
+
   );
 };
 

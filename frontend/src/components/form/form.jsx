@@ -10,12 +10,22 @@ const Form = ({type}) => {
 
     return ( <div className="container">
     <form action="/action_page.php">
+    {
+        (type==="Register" ) &&  <div className="row">
+        <div className="col-25">
+          <label for="lname">Name</label>
+        </div>
+        <div className="col-75">
+          <input type="text" id="name" name="lastname" placeholder="Your Name" className="input"/>
+        </div>
+      </div>
+      }
       <div className="row">
         <div className="col-25">
           <label for="fname">Email</label>
         </div>
         <div className="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your Email ID Here" className="input"/>
+          <input type="text" id="email" name="firstname" placeholder="Your Email ID Here" className="input"/>
         </div>
       </div>
       <div className="row">
@@ -23,7 +33,7 @@ const Form = ({type}) => {
           <label for="lname">Password</label>
         </div>
         <div className="col-75">
-          <input type="password" id="lname" name="lastname" placeholder="Your Password" className="input"/>
+          <input type="password" id="pass" name="lastname" placeholder="Your Password" className="input"/>
         </div>
       </div>
       {
@@ -32,7 +42,7 @@ const Form = ({type}) => {
           <label for="lname">Address</label>
         </div>
         <div className="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your Address" className="input"/>
+          <input type="text" id="address" name="lastname" placeholder="Your Address" className="input"/>
         </div>
       </div>
       }
@@ -42,7 +52,17 @@ const Form = ({type}) => {
           <label for="lname">Contact No.</label>
         </div>
         <div className="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your Contact No." className="input"/>
+          <input type="text" id="contact" name="lastname" placeholder="Your Contact No." className="input"/>
+        </div>
+      </div>
+      }
+       {
+        (type==="Register" ) &&  <div className="row">
+        <div className="col-25">
+          <label for="lname">Verification ID</label>
+        </div>
+        <div className="col-75">
+          <input type="text" id="verify" name="lastname" placeholder="Your Verification ID" className="input"/>
         </div>
       </div>
       }

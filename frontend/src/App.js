@@ -18,16 +18,17 @@ import {
 
 function App() {
 const user = true;
+const type = 1;
   return (
       <Router>
       <Routes>
-        <Route path="/menu" exact element={user ? <RestaurantDetails/> : <Login/> }/> 
+        <Route path="/menu" exact element={user ? <RestaurantDetails type={type}/> : <Login/> }/> 
         <Route path="/register" element={user ? <Navigate to="/"/> : <Register/> } />
-        <Route path="/" exact element={user ? <Home/> : <Login/> }/>
+        <Route path="/" exact element={user ? <Home type={type}/> : <Login/> }/>
         <Route path="/login" element={user ? <Navigate to="/"/> : <Login/> }/>
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/edit" element={user?<Edit/>:<Login/>} />
-        <Route path="/testimonials" element={<Testimonials/>} />
+        <Route path="/dashboard" element={<Dashboard type={type}/>} />
+        <Route path="/edit" element={user?<Edit type={type}/>:<Login/>} />
+        <Route path="/testimonials" element={<Testimonials type={type}/>} />
       </Routes>
     </Router>
   );

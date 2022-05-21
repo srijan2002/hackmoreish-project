@@ -3,11 +3,11 @@ import Main from "../../components/main/Main";
 import "./home.css"
 
 
-const Home = () => {
+const Home = ({type}) => {
     return ( 
         <>
         <div className="homeContainer">
-        <Navigation />
+        <Navigation type={type}/>
         <Main/>
         </div>
         </>
