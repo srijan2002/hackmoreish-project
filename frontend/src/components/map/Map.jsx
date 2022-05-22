@@ -1,6 +1,6 @@
 import "./map.css";
 import '../../pages/login/login.css'
-import pic from "../../assets/pic.png";
+// import pic from "../../assets/pic.png";
 const Map = () => {
   return (
     <div className="map">

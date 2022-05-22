@@ -70,7 +70,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  input{
+  .amt{
     width: 30%;
     margin: 2px;
   }
