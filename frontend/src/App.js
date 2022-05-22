@@ -18,7 +18,7 @@ import {
 
 function App() {
 const user = true;
-const type = 1;
+const type = 0;
   return (
       <Router>
       <Routes>
